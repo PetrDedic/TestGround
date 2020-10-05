@@ -1,0 +1,44 @@
+:root {
+    font-family: 'Open Sans';
+    color: white;
+}
+
+body {
+    background-color: #131417;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+section {
+    width: 100vw;
+    height: 100vw;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.bg-square {
+    background-color: #131417;
+    width: 5%;
+    height: 5%;
+    float:left;
+    top: 0;
+    transition: 500ms;
+}
+
+.bg-square:hover {
+    background-color: #ff003f;
+    transition: 0.0005ms;
+}
